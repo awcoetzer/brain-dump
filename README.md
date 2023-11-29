@@ -18,7 +18,7 @@
     - **[SOLUTION #]** _Small solution code example_
       - **ISSUE:** 
       - > What issue did you experience
-      - > **SOLUTION:** 
+      - **SOLUTION:** 
       - > The solution that worked
  -->
 
@@ -27,7 +27,7 @@
   - **[SOLUTION #]** _..._
     - **ISSUE: Can never remember my root variable setup** 
     - > This is just my .css root variable structure for how I develope my websites.
-    - > **SOLUTION:** 
+    - **SOLUTION:** 
 <details>
   <summary>Root Variable Structure</summary>
 
