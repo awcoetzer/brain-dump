@@ -4,9 +4,11 @@
 <br>
 
 #### • NAVIGATION
-- [Python](#•-python)
-  - [Python Virtual Environment](#python-virtual-environment)- 
-- [WSL](#•-wsl)
+- [CSS](#📚-css)
+  - [Root Variable Layout](#root-variable-layout) 
+- [Python](#📚-python)
+  - [Python Virtual Environment](#python-virtual-environment) 
+- [WSL](#📚-wsl)
   - [Connection Issues](#connection-issues)
 
 <br>
@@ -14,7 +16,7 @@
 <!-- 
   • Example of Issue and Solution block
   #### 📚 HEADING
-  - **Name problem is related to**
+  - #### **Name problem is related to**
     - **[SOLUTION #]** _Small solution code example_
       - **ISSUE:** 
       - > What issue did you experience
@@ -23,7 +25,7 @@
  -->
 
 #### 📚 CSS
-- **Root Variable Layout**
+- #### **Root Variable Layout**
   - **[SOLUTION #]** _..._
     - **ISSUE: Can never remember my root variable setup** 
     - > This is just my .css root variable structure for how I develope my websites.
