@@ -6,6 +6,7 @@
 #### • NAVIGATION
 - [CSS](#📚-css)
   - [Root Variable Layout](#root-variable-layout) 
+- [.gitignore](#📚-git-ignore)
 - [Python](#📚-python)
   - [Python Virtual Environment](#python-virtual-environment) 
 - [WSL](#📚-wsl)
@@ -30,102 +31,148 @@
     - **ISSUE: Can never remember my root variable setup** 
     - > This is just my .css root variable structure for how I develope my websites.
     - **SOLUTION:** 
-<details>
-  <summary>Root Variable Structure</summary>
+    - > ```css
+      >     :root {
+      >     /* generic document setup */
+      >     /* typeface */
+      >     --typeface-inter: 'Inter', sans-serif;
+      >     --typeface-ssp: 'Source Sans 3', sans-serif;
+      > 
+      >     /* percentage fonts */
+      >     --percentage-font-10: 62.5%;
+      >     --percentage-font-9: 56.25%;
+      >     --percentage-font-8: 50%;
+      >     --percentage-font-7: 43.75%;
+      > 
+      >     /* font size */
+      >     --font-10: 1rem;
+      >     --font-12: 1.2rem;
+      >     --font-14: 1.4rem;
+      >     --font-16: 1.6rem;
+      >     --font-18: 1.8rem;
+      >     --font-20: 2rem;
+      >     --font-24: 2.4rem;
+      >     --font-30: 3rem;
+      >     --font-32: 3.2rem;
+      >     --font-36: 3.6rem;
+      >     --font-44: 4.4rem;
+      >     --font-52: 5.2rem;
+      >     --font-62: 6.2rem;
+      >     --font-74: 7.4rem;
+      >     --font-86: 8.6rem;
+      >     --font-98: 9.8rem;
+      > 
+      >     /* font weight */
+      >     --font-weight-400: 400;
+      >     --font-weight-500: 500;
+      >     --font-weight-700: 700;
+      > 
+      >     /* spacing system */
+      >     --spacing-2: 0.2rem;
+      >     --spacing-4: 0.4rem;
+      >     --spacing-8: 0.8rem;
+      >     --spacing-12: 1.2rem;
+      >     --spacing-16: 1.6rem;
+      >     --spacing-24: 2.4rem;
+      >     --spacing-32: 3.2rem;
+      >     --spacing-48: 4.8rem;
+      >     --spacing-64: 6.4rem;
+      >     --spacing-80: 8rem;
+      >     --spacing-96: 9.6rem;
+      >     --spacing-128: 12.8rem;
+      > 
+      >     /* border radius */
+      >     --border-rad-05: 0.5rem;
+      >     --border-rad-1: 1rem;
+      >     --border-rad-100: 10rem;
+      >     --border-rad-round: 50%;
+      > 
+      >     /* line height */
+      >     --line-height-1: 1;
+      >     --line-height-11: 1.1;
+      >     --line-height-15: 1.5;
+      >     --line-height-17: 1.7;
+      > 
+      >     /* letter spacing */
+      >     --letter-space-n05: -0.5px;
+      >     --letter-space-n1: -1px;
+      >     --letter-space-p05: 0.5px;
+      >     --letter-space-p1: 1px;
+      > 
+      >     --clr-shadow: hsl(210, 16%, 25%);
+      >     --clr-background-shade: hsl(210, 38%, 35%);
+      >     --clr-background-main: hsl(210, 38%, 90%);
+      >     --clr-background-tint: hsl(210, 38%, 95%);
+      >     --clr-headline: hsl(210, 52%, 10%);
+      >     --clr-paragraph: hsl(210, 28%, 25%);
+      >     --clr-stroke: hsl(210, 8%, 92%);
+      >     --clr-accent: hsl(0, 0%, 70%);
+      >     --clr-accent-tint: hsl(0, 0%, 80%);
+      >     --clr-button: hsl(210, 10%, 85%);
+      >     --clr-button-text: var(--clr-shadow);
+      >     --clr-button-before: linear-gradient(140deg,
+      >         hsl(0, 0%, 97%),
+      >         hsl(0, 0%, 67%));
+      >     --clr-button-plus: var(--clr-accent-tint);
+      >     --clr-button-plus-text: var(--clr-shadow);
+      >     --clr-button-plus-before: linear-gradient(140deg,
+      >         var(--clr-accent-tint),
+      >         var(--clr-accent));
+      >     --clr-button-shadow: var(--clr-shadow);
+      >   }
+      > ```
 
-  ```css
-      :root {
-      /* generic document setup */
-      /* typeface */
-      --typeface-inter: 'Inter', sans-serif;
-      --typeface-ssp: 'Source Sans 3', sans-serif;
 
-      /* percentage fonts */
-      --percentage-font-10: 62.5%;
-      --percentage-font-9: 56.25%;
-      --percentage-font-8: 50%;
-      --percentage-font-7: 43.75%;
+<br>
 
-      /* font size */
-      --font-10: 1rem;
-      --font-12: 1.2rem;
-      --font-14: 1.4rem;
-      --font-16: 1.6rem;
-      --font-18: 1.8rem;
-      --font-20: 2rem;
-      --font-24: 2.4rem;
-      --font-30: 3rem;
-      --font-32: 3.2rem;
-      --font-36: 3.6rem;
-      --font-44: 4.4rem;
-      --font-52: 5.2rem;
-      --font-62: 6.2rem;
-      --font-74: 7.4rem;
-      --font-86: 8.6rem;
-      --font-98: 9.8rem;
+#### 📚 GIT IGNORE
+- #### **Default Git Ignore File**
+  - **[SOLUTION #]** _touch .gitignore_
+    - **ISSUE: Can never remember which files to exclude in my repositories** 
+    - > These are the files to add to your .gitignore file
+    - **SOLUTION:** 
+    - > #### • Personal Files
+      > exercise-files/
+      > #### • Operating System Files
+      > .DS_Store
+      > Thumbs.db
+      > desktop.ini
+      > #### • IDE and Text Editor Files
+      > .idea/
+      > .vscode/
+      > *.pyc
+      > __pycache__/
+      > .project
+      > #### • Virtual Environments
+      > venv/
+      > env/
+      > #### • Dependency Management
+      > node_modules/
+      > yarn.lock
+      > package-lock.json
+      > #### • Compiled Code and Binaries
+      > *.class
+      > *.jar
+      > *.war
+      > *.pyc
+      > #### • Logs and Temporary Files
+      > *.log
+      > *.tmp
+      > #### • Configuration Files
+      > .env
+      > .env.local
+      > *.config
+      > #### • Web Development
+      > public/
+      > build/
+      > #### • Miscellaneous
+      > .travis.yml
+      > .coverage
+      > #### • Personal Configuration
+      > .vscode/settings.json
+      > .editorconfig
 
-      /* font weight */
-      --font-weight-400: 400;
-      --font-weight-500: 500;
-      --font-weight-700: 700;
-
-      /* spacing system */
-      --spacing-2: 0.2rem;
-      --spacing-4: 0.4rem;
-      --spacing-8: 0.8rem;
-      --spacing-12: 1.2rem;
-      --spacing-16: 1.6rem;
-      --spacing-24: 2.4rem;
-      --spacing-32: 3.2rem;
-      --spacing-48: 4.8rem;
-      --spacing-64: 6.4rem;
-      --spacing-80: 8rem;
-      --spacing-96: 9.6rem;
-      --spacing-128: 12.8rem;
-
-      /* border radius */
-      --border-rad-05: 0.5rem;
-      --border-rad-1: 1rem;
-      --border-rad-100: 10rem;
-      --border-rad-round: 50%;
-
-      /* line height */
-      --line-height-1: 1;
-      --line-height-11: 1.1;
-      --line-height-15: 1.5;
-      --line-height-17: 1.7;
-
-      /* letter spacing */
-      --letter-space-n05: -0.5px;
-      --letter-space-n1: -1px;
-      --letter-space-p05: 0.5px;
-      --letter-space-p1: 1px;
-
-      --clr-shadow: hsl(210, 16%, 25%);
-      --clr-background-shade: hsl(210, 38%, 35%);
-      --clr-background-main: hsl(210, 38%, 90%);
-      --clr-background-tint: hsl(210, 38%, 95%);
-      --clr-headline: hsl(210, 52%, 10%);
-      --clr-paragraph: hsl(210, 28%, 25%);
-      --clr-stroke: hsl(210, 8%, 92%);
-      --clr-accent: hsl(0, 0%, 70%);
-      --clr-accent-tint: hsl(0, 0%, 80%);
-      --clr-button: hsl(210, 10%, 85%);
-      --clr-button-text: var(--clr-shadow);
-      --clr-button-before: linear-gradient(140deg,
-          hsl(0, 0%, 97%),
-          hsl(0, 0%, 67%));
-      --clr-button-plus: var(--clr-accent-tint);
-      --clr-button-plus-text: var(--clr-shadow);
-      --clr-button-plus-before: linear-gradient(140deg,
-          var(--clr-accent-tint),
-          var(--clr-accent));
-      --clr-button-shadow: var(--clr-shadow);
-    }
-  ```
-</details>
-
- <br>
+<br>
 
 #### 📚 PYTHON
 - #### **Python Virtual Environment**
