@@ -9,6 +9,8 @@
 - [.gitignore](#📚-git-ignore)
 - [Python](#📚-python)
   - [Python Virtual Environment](#python-virtual-environment) 
+- [SSH](#📚-ssh)
+  - [ssh-keygen](#ssh-keygen) 
 - [WSL](#📚-wsl)
   - [Connection Issues](#connection-issues)
 
@@ -184,6 +186,16 @@
     - > 2. `cd venvs` and then initialize `python3.11 -m venv my-project-name`
     - > 3. `cd path/of/project` and activate the virtual environment using `source path/of/venvs/project-name/bin/activate`, at which point you terminal should update to indicate you are within the venv surrounded in brackets.
     - > 4. To deactivate the venv, simply run `deactivate` in the terminal to stop.
+
+<br>
+
+#### 📚 SSH
+- #### *ssh-keygen*
+  - **[SOLUTION 1]** _ssh-key -t ed25519 -C 'name here'_
+    - **ISSUE:** 
+    - > Always forgetting the ssh keygen command
+    - **SOLUTION:** 
+    - > ssh-key -t ed25519 -C 'name here'
 
 <br>
 
