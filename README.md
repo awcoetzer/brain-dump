@@ -31,6 +31,16 @@
 ### B
 ###### [_Back to Memory Lane_](#memory-lane)
 
+#### BASH ALIASES
+  - #### **Setting up Bash Aliases**
+    - **[SOLUTION]** _alias mkdir='mkdir -v'_
+      - **ISSUE:** List of bash aliases
+      - > Can never remember bash aliases
+      - **SOLUTION:** 
+      - > alias mkdir='mkdir -v'
+      - > alias cp='cp -v'
+      - > alias rm='rm -vrfi'
+      - > alias updateme='sudo zypper dup && sudo zypper up && sudo omz update'
 
 <br>
 
@@ -238,63 +248,70 @@
  
 ### H
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
+
 
 
 <br>
  
 ### I
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
+
 
 
 <br>
  
 ### J
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
+
 
 
 <br>
  
 ### K
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
+
 
 
 <br>
  
 ### L
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
+
+#### LINUX SETUP
+  - #### **Linux fresh setup**
+    - **[SOLUTION #]** _Curl/Vim/Git/Zsh/OMZ_
+      - **ISSUE:** All things needed to setup your DevEnv
+      - > Can never remember what is needed to install after a long time of using a specific OS, and where to find what.
+      - **SOLUTION:** 
+      - > Install Vim, Git, Curl, Zsh and then OMZ (oh my zshell)
+      - > install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) & [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+      - > vim .zshrc and add your plugins, save & exit and source .zshrc
+      - > touch .bash-aliases, create your bash aliases _[found here](#bash-aliases)_
+      - > vim .zshrc and at the bottom add source $HOME/.bash_aliases
 
 
 <br>
  
 ### M
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
 
 
 <br>
  
 ### N
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
 
 
 <br>
  
 ### O
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
 
 
 <br>
  
 ### P
 ###### [_Back to Memory Lane_](#memory-lane)
-<br>
 
 #### PYTHON
 - #### **Python Virtual Environment**
