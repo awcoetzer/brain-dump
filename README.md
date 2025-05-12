@@ -157,6 +157,25 @@
 ### G
 ###### [_Back to Memory Lane_](#memory-lane)
 
+#### **GIT SETUP**
+- #### **Fresh setup of git on a new system**
+  - **[SOLUTION]** _git config --list/--global_
+    - **ISSUE:** 
+    - > Setting up Git for the first time on a new machine, can never remember the basic config commands.
+    - **SOLUTION:** 
+    - > • git config --global user.name 'Set username here'
+      - _Sets your username._
+    - > • git config --global user.email 'Set email here'
+      - _Sets your email._
+    - > • git config --global code.editor 'code --wait'
+      - _Sets your editor for commit messages._
+    - > • git config --global commit.template ~/path/to/commit-template.txt
+      - _Sets the default commit message template to a custom template._
+    - > • git config --list
+      - _Lists or Displays your git config file._
+
+<br>
+
 #### GIT IGNORE
 - #### **Default Git Ignore File**
   - **[SOLUTION #]** _touch .gitignore_
