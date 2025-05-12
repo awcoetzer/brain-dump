@@ -1,24 +1,19 @@
-#### • useful-solutions
-### This file is solely for remembering solutions on how to do things, topics can range from programming to OS solution and more.
+### BRAIN DUMP
+<hr>
 
+#### _"This file is my brain’s backup, stuffed with solutions, hacks, and how-tos for everything from coding chaos to operating system mysteries (and whatever else I’ve forgotten how to do... again)."_
 <br>
 
-#### • NAVIGATION
-- [CSS](#📚-css)
-  - [Root Variable Layout](#root-variable-layout) 
-- [.gitignore](#📚-git-ignore)
-- [Python](#📚-python)
-  - [Python Virtual Environment](#python-virtual-environment) 
-- [SSH](#📚-ssh)
-  - [ssh-keygen](#ssh-keygen) 
-- [WSL](#📚-wsl)
-  - [Connection Issues](#connection-issues)
+### Memory Lane
 
+[A](#a) • [B](#b)  • [C](#c) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [I](#i) • [J](#j) • [K](#k) • [L](#l) • [M](#m) • [N](#n) • [O](#o) • [P](#p) • [Q](#q) • [R](#r) • [S](#s) • [T](#t) • [U](#u) • [V](#v) • [W](#w) • [X](#x) • [Y](#y) • [Z](#z)
+
+<hr>
 <br>
 
 <!-- 
   • Example of Issue and Solution block
-  #### 📚 HEADING
+  #### HEADING
   - #### **Name problem is related to**
     - **[SOLUTION #]** _Small solution code example_
       - **ISSUE:** 
@@ -27,7 +22,22 @@
       - > The solution that worked
  -->
 
-#### 📚 CSS
+### A
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+
+### B
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+
+### C
+###### [_Back to Memory Lane_](#memory-lane)
+
+#### CSS
 - #### **Root Variable Layout**
   - **[SOLUTION #]** _..._
     - **ISSUE: Can never remember my root variable setup** 
@@ -124,42 +134,70 @@
       >   }
       > ```
 
+<br>
+ 
+### D
+###### [_Back to Memory Lane_](#memory-lane)
+
 
 <br>
+ 
+### E
+###### [_Back to Memory Lane_](#memory-lane)
 
-#### 📚 GIT IGNORE
+
+<br>
+ 
+### F
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### G
+###### [_Back to Memory Lane_](#memory-lane)
+
+#### GIT IGNORE
 - #### **Default Git Ignore File**
   - **[SOLUTION #]** _touch .gitignore_
     - **ISSUE: Can never remember which files to exclude in my repositories** 
     - > These are the files to add to your .gitignore file
     - **SOLUTION:** 
-    - > #### • Personal Files
+    - > ```
+      > #### • Personal Files
       > exercise-files/
+      >
       > #### • Operating System Files
       > .DS_Store
       > Thumbs.db
       > desktop.ini
+      >
       > #### • IDE and Text Editor Files
       > .idea/
       > .vscode/
       > *.pyc
       > __pycache__/
       > .project
+      >
       > #### • Virtual Environments
       > venv/
       > env/
+      >
       > #### • Dependency Management
       > node_modules/
       > yarn.lock
       > package-lock.json
+      >
       > #### • Compiled Code and Binaries
       > *.class
       > *.jar
       > *.war
       > *.pyc
+      >
       > #### • Logs and Temporary Files
       > *.log
       > *.tmp
+      >
       > #### • Configuration Files
       > .env
       > .env.local
@@ -167,16 +205,79 @@
       > #### • Web Development
       > public/
       > build/
+      >
       > #### • Miscellaneous
       > .travis.yml
       > .coverage
+      >
       > #### • Personal Configuration
       > .vscode/settings.json
       > .editorconfig
+      > ```
 
 <br>
+ 
+### H
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
 
-#### 📚 PYTHON
+
+<br>
+ 
+### I
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### J
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### K
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### L
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### M
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### N
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### O
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+
+<br>
+ 
+### P
+###### [_Back to Memory Lane_](#memory-lane)
+<br>
+
+#### PYTHON
 - #### **Python Virtual Environment**
   - **[SOLUTION]** _python -m venv venv_
     - **ISSUE:**
@@ -188,8 +289,23 @@
     - > 4. To deactivate the venv, simply run `deactivate` in the terminal to stop.
 
 <br>
+ 
+### Q
+###### [_Back to Memory Lane_](#memory-lane)
 
-#### 📚 SSH
+
+<br>
+ 
+### R
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### S
+###### [_Back to Memory Lane_](#memory-lane)
+
+#### SSH
 - #### *ssh-keygen*
   - **[SOLUTION 1]** _ssh-key -t ed25519 -C 'name here'_
     - **ISSUE:** 
@@ -198,11 +314,50 @@
     - > ssh-key -t ed25519 -C 'name here'
 
 <br>
+ 
+### T
+###### [_Back to Memory Lane_](#memory-lane)
 
-#### 📚 WSL
+
+<br>
+ 
+### U
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### V
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### W
+###### [_Back to Memory Lane_](#memory-lane)
+
+#### WSL
 - #### **Connection issues**
    - **[SOLUTION 1]** _sudo vim /etc/resolv.conf_
       - **ISSUE:** WSL2 lost connection for no reason! 
       - > **SOLUTION:** Try checking if the nameserver address has changed. This solution worked for me when connection stopped working for no reason, The solution was changing the nameserver to 8.8.8.8.
+
+<br>
+ 
+### X
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### Y
+###### [_Back to Memory Lane_](#memory-lane)
+
+
+<br>
+ 
+### Z
+###### [_Back to Memory Lane_](#memory-lane)
+
 
 <br>
