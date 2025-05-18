@@ -184,6 +184,53 @@
     - > • git config --list
       - _Lists or Displays your git config file._
 
+#### **GIT COMMIT TEMPLATE**
+  - #### **My custom Git commit template**
+    - **[SOLUTION]** _git config --global commit.template ~/path/to/commit-template.txtgit_
+    - **ISSUE:**
+    - > ```txt
+      > # ------------------------ COMMIT MESSAGE TEMPLATE ------------------------
+      > # <type>(<scope>): <short summary>
+      > # 
+      > # A short, imperative summary of your change (max 50 characters).
+      > # Use the present tense (e.g., "add", not "added" or "adds").
+      > # 
+      > # Example:
+      > #   feat(navbar): add responsive menu toggle
+      > 
+      > # Optional body:
+      > # 
+      > # Explain *what* and *why* the change was made, not *how*.
+      > # Wrap lines at 72 characters.
+      > #
+      > # Example:
+      > # Updated the mobile navigation to use flexbox for layout,
+      > # improving accessibility and consistency across screen sizes.
+      > 
+      > # Optional footer:
+      > # 
+      > # Use to reference issues or note breaking changes.
+      > #
+      > # Example:
+      > # Closes #42
+      > # BREAKING CHANGE: updated auth flow now requires re-login
+      > 
+      > # ------------------------ TYPE LEGEND ------------------------
+      > # Common types you can use:
+      > #
+      > # feat:     A new feature
+      > # fix:      A bug fix
+      > # docs:     Documentation only changes
+      > # style:    Visual or formatting changes (CSS, spacing, no logic)
+      > # refactor: Code refactoring (no new features or fixes)
+      > # test:     Adding or updating tests
+      > # chore:    Other changes (build, tooling, CI, etc.)
+      > #
+      > # ------------------------ SCOPE EXAMPLES ------------------------
+      > # Examples of scopes (where the change happened):
+      > # navbar, auth, css, homepage, api, theme, footer, etc.
+      > ```
+
 <br>
 
 #### GIT IGNORE
