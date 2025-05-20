@@ -186,7 +186,7 @@
 
 #### **GIT COMMIT TEMPLATE**
   - #### **My custom Git commit template**
-    - **[SOLUTION]** _git config --global commit.template ~/path/to/commit-template.txtgit_
+    - **[SOLUTION]** _git config --global commit.template ~/path/to/commit-template.txt_
     - **ISSUE:**
     - > ```txt
       > # ------------------------ COMMIT MESSAGE TEMPLATE ------------------------
@@ -337,6 +337,16 @@
       - > vim .zshrc and at the bottom add source $HOME/.bash_aliases
 
 
+#### LIVE-SERVER (NPM)
+  - #### **live-server installation using NPM**
+    - **[SOLUTION #]** _npm search live-server/npm install -g live-server_
+      - **ISSUE:** live-server installation through NPM
+      - > As I usually only do this process once, I tend to forget the command for installing live-server globally using NPM (Node Package Manager).
+      - **SOLUTION:** 
+      - > First search the package name using `npm search live-server`.
+      - > Then install live-server globally using `npm install -g live-server`.
+      - > Then once in project folder, you can run `live-server`.
+
 <br>
  
 ### M
@@ -348,6 +358,14 @@
 ### N
 ###### [_Back to Memory Lane_](#memory-lane)
 
+#### NODE.JS Installation
+  - #### **Node.js Installation setup**
+    - **[SOLUTION #]** _https://nodejs.org/en/download_
+      - **ISSUE:** Node.js installation following site instructions.
+      - > Using sudo apt install node, installs older version of node. So better is to follow sites instructions.
+      - **SOLUTION:** 
+      - > Visit [Node.js Website](https://nodejs.org/en/download)
+      - > Follow instructions on Download page for your OS.
 
 <br>
  
