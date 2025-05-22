@@ -177,6 +177,7 @@
       - _Sets your username._
     - > • git config --global user.email 'Set email here'
       - _Sets your email._
+        - **‼️IMPORTANT NOTE:** _Make sure you email is set the same as your GitHub accounts email, otherwise you will not see your contributions displayed on your page._
     - > • git config --global code.editor 'code --wait'
       - _Sets your editor for commit messages._
     - > • git config --global commit.template ~/path/to/commit-template.txt
